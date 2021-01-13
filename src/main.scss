@@ -111,3 +111,20 @@ $dark-color: #192C2D;
     }
   }
 }
+
+// MAIN
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sliderMain {
+  width: 100%;
+}
+.posterMain {
+  width: 70%;
+}
+.instagramMain {
+  width: 30%;
+}

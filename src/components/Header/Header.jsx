@@ -22,7 +22,7 @@ const Header = (props) => {
             <div className='rightMainMenu'>
                 <ul>
                     <li><NavLink to={'/price'}>Стоимость</NavLink></li>
-                    <li><NavLink to={'/certificate'}>Сертификаты</NavLink></li>
+                    <li><NavLink to={'/certificates'}>Сертификаты</NavLink></li>
                     <li><NavLink to={'/reviews'}>Отзывы</NavLink></li>
                 </ul>
             </div>
