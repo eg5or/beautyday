@@ -55,7 +55,8 @@ $dark-color: #192C2D;
   align-items: center;
 }
 .bottomHeader {
-
+  padding-top: 30px;
+  border-bottom: 1px solid $main-color;
 }
 // LOGIN BLOCK
 .loginBlock {
@@ -97,5 +98,16 @@ $dark-color: #192C2D;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  li {
+    padding: 10px 0;
+  }
+  a {
+    color: $main-color;
+    text-decoration: none;
+    &:hover {
+      color: $dark-color;
+      border-bottom: 1px dashed $dark-color;
+    }
   }
 }
