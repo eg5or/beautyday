@@ -6,6 +6,7 @@ import Main from './components/Main/Main';
 import Portfolio from './components/Portfolio/Portfolio';
 import Price from './components/Price/Price';
 import Reviews from './components/Reviews/Reviews';
+import Login from './components/Login/Login'
 import {Route} from 'react-router-dom';
 
 function App() {

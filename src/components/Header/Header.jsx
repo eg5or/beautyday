@@ -1,13 +1,15 @@
 import React from 'react'
 import './../../main.scss'
 import {NavLink} from "react-router-dom";
+import Login from '../Login/Login';
 
 const Header = (props) => {
+    const [open, setOpen] = React.useState(false)
     return <div className='headerContainer'>
         <div className='topHeader'>
             <div className='loginBlock'>
                 <div className='iconLogin'/>
-                <div className='textLogin'>Войти</div>
+                <div className='textLogin' onClick={() => {setOpen(true)}}>Войти</div>
             </div>
         </div>
         <div className='centerHeader'>
@@ -26,6 +28,7 @@ const Header = (props) => {
                     <li><NavLink to={'/reviews'}>Отзывы</NavLink></li>
                 </ul>
             </div>
+            <Login open={open} setOpen={setOpen}/>
         </div>
         <div className='bottomHeader'/>
     </div>
