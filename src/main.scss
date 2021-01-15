@@ -61,10 +61,31 @@ $dark-color: #192C2D;
 // LOGIN BLOCK
 .loginBlock {
   display: flex;
+}
+
+.adminLink,
+.loginLink {
+  display: flex;
   &:hover {
     color: $accent-color;
     cursor: pointer;
   }
+  padding-right: 10px;
+}
+
+.headerLoginModal {
+  display: flex;
+}
+
+.loadingLogin {
+  color: $dark-color
+}
+
+.iconAdmin:before {
+  font-family: 'icomoon';
+  content: "\f085";
+  font-size: 12px;
+  padding-right: 3px;
 }
 
 .iconLogin:before {
